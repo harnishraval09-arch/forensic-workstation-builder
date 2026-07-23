@@ -1,0 +1,14 @@
+{
+  "id": "windows_forensics",
+  "name": "Windows Forensics",
+  "description": "Complete Windows digital forensics environment",
+  "category": "Digital Forensics",
+  "version": "1.0.0",
+  "tools": [
+    "cyberchef",
+    "wireshark",
+    "autopsy",
+    "registry_explorer",
+    "evtxecmd"
+  ]
+}

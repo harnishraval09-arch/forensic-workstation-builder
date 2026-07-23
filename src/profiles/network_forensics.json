@@ -1,0 +1,13 @@
+{
+  "id": "network_forensics",
+  "name": "Network Forensics",
+  "description": "Tools for network traffic analysis",
+  "category": "Network Forensics",
+  "version": "1.0.0",
+  "tools": [
+    "wireshark",
+    "cyberchef",
+    "zeek",
+    "networkminer"
+  ]
+}
