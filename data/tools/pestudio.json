@@ -1,0 +1,18 @@
+{
+  "id": "pestudio",
+  "name": "PEStudio",
+  "description": "Portable executable analysis tool for malware triage and threat hunting",
+  "category": "Malware Analysis",
+  "version": "latest",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "portable",
+  "download_url": "https://www.winitor.com/tools/pestudio/current/pestudio.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "pestudio.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "17fa947aed14ee4155dd1bb0f0fc0dee9344e2efd158052de9e2ff9ba893b315"
+}

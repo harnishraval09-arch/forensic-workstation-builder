@@ -1,0 +1,21 @@
+{
+  "id": "volatility",
+  "name": "Volatility",
+  "description": "Memory forensics framework",
+  "category": "Malware Analysis",
+  "version": "3.0.0",
+  "supported_os": [
+    "windows",
+    "linux"
+  ],
+  "install_method": "python_package",
+  "download_url": "",
+  "sha256": "",
+  "dependencies": [
+    "python"
+  ],
+  "file_name": "volatility3",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "16546bf4329b0cfa158401277d30864eaf74e8464d2797c2cb43979680842e9b"
+}

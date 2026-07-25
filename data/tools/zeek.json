@@ -1,0 +1,18 @@
+{
+  "id": "zeek",
+  "name": "Zeek",
+  "description": "Network security monitoring and traffic analysis framework",
+  "category": "Network Forensics",
+  "version": "latest",
+  "supported_os": [
+    "linux"
+  ],
+  "install_method": "archive",
+  "download_url": "https://github.com/zeek/zeek/archive/refs/heads/master.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "zeek-master.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "ee05ef3f1e3aee6d36beef27120a804df7facae04afeb3e5175d263d8facb4ca"
+}

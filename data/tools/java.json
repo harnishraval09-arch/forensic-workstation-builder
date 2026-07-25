@@ -1,0 +1,18 @@
+{
+  "id": "java",
+  "name": "Java Runtime Environment",
+  "description": "Required for Autopsy and other Java-based tools",
+  "category": "Runtime",
+  "version": "26",
+  "supported_os": [
+    "linux"
+  ],
+  "install_method": "archive",
+  "download_url": "https://download.oracle.com/java/26/latest/jdk-26_linux-x64_bin.tar.gz",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "jdk-26_linux-x64_bin.tar.gz",
+  "requires_admin": true,
+  "source": "official",
+  "signature": "526eaf637347a8a7abfac055b7f6562d5683cec49a7d040e15de8ed80b6b97db"
+}

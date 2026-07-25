@@ -1,0 +1,18 @@
+{
+  "id": "yara",
+  "name": "YARA",
+  "description": "Pattern matching tool for malware analysis",
+  "category": "Malware Analysis",
+  "version": "4.5.5",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "portable",
+  "download_url": "https://github.com/VirusTotal/yara/releases/download/v4.5.5/yara-4.5.5-2368-win64.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "yara-4.5.5-win64.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "17d97892d262dbeaf42d862c4a9455f3d0accccb3246f2c4ab3149629b088f31"
+}

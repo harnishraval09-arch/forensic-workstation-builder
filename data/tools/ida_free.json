@@ -1,0 +1,18 @@
+{
+  "id": "ida_free",
+  "name": "IDA Free",
+  "description": "Free version of the industry-standard interactive disassembler for reverse engineering",
+  "category": "Malware Analysis",
+  "version": "9.0",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "installer",
+  "download_url": "https://ida-pro-free.software.informer.com/download/?ca2d9f71",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "ida_free.exe",
+  "requires_admin": true,
+  "source": "official",
+  "signature": "fffc4d0775ea43d43b92aecbb2505763eab9b1b21c71ec658c182b3c2c57c13f"
+}

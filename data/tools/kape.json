@@ -1,0 +1,18 @@
+{
+  "id": "kape",
+  "name": "KAPE",
+  "description": "Kroll Artifact Parser and Extractor \u00e2\u20ac\u201d fast forensic triage",
+  "category": "Digital Forensics",
+  "version": "latest",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "archive",
+  "download_url": "https://github.com/EricZimmerman/KapeFiles/archive/refs/heads/master.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "KapeFiles-master.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "db11f91cd131102753cb8a6bcc4c0e4e477a4cfd999472e139e76a25b2db4ea6"
+}

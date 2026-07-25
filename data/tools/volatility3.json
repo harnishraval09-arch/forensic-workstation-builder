@@ -1,0 +1,18 @@
+{
+  "id": "volatility3",
+  "name": "Volatility",
+  "description": "Memory forensics framework",
+  "category": "Malware Analysis",
+  "version": "2.28.0",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "portable",
+  "download_url": "https://github.com/volatilityfoundation/volatility3/releases/download/v2.28.0/volatility3-win-exes-2.28.0.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "volatility3-win-exes-2.28.0.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "4da55b5088b1ed15519c418f449ec996740a89210a2fb3f5bac9216727358fb7"
+}

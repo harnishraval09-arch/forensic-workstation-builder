@@ -1,0 +1,18 @@
+{
+  "id": "networkminer",
+  "name": "NetworkMiner",
+  "description": "Network forensic analysis tool for packet capture and network incident response",
+  "category": "Network Forensics",
+  "version": "latest",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "installer",
+  "download_url": "https://www.netresec.com/?download=NetworkMiner",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "NetworkMiner.exe",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "d5357ac3191a1c8c767075b1a124cabef513173d792a147a216f5c625aa89ceb"
+}

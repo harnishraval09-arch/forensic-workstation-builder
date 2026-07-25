@@ -1,0 +1,18 @@
+{
+  "id": "wireshark",
+  "name": "Wireshark",
+  "description": "World's most popular network protocol analyzer",
+  "category": "Network Forensics",
+  "version": "4.6.7",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "installer",
+  "download_url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.7-x64.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "Wireshark-4.6.7-x64.exe",
+  "requires_admin": true,
+  "source": "official",
+  "signature": "31100075d3cf3ca36d823c6438a86ba786763fc7f255663e054fa9d6153108e2"
+}

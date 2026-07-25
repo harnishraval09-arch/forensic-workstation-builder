@@ -1,0 +1,18 @@
+{
+  "id": "evtxecmd",
+  "name": "EvtxECmd",
+  "description": "Command line EVTX parser for Windows event log triage and timeline creation",
+  "category": "Digital Forensics",
+  "version": "latest",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "portable",
+  "download_url": "https://github.com/EricZimmerman/evtx/archive/refs/heads/master.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "evtx-master.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "f99ff3292fc98ba4ebbc184074550a7965c1f99b240972d37d3df2741fd1ec01"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "snapshot_Second_Setup",
+  "name": "Second Setup",
+  "description": "Added more tools",
+  "tools": [
+    {
+      "id": "java",
+      "name": "Java Runtime Environment",
+      "version": "26",
+      "pinned_version": null,
+      "pinned_hash": null
+    },
+    {
+      "id": "wireshark",
+      "name": "Wireshark",
+      "version": "4.6.7",
+      "pinned_version": null,
+      "pinned_hash": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "cyberchef",
+  "name": "CyberChef",
+  "description": "The Cyber Swiss Army Knife - encryption, encoding, compression",
+  "category": "General",
+  "version": "latest",
+  "supported_os": [
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "install_method": "archive",
+  "download_url": "https://github.com/gchq/CyberChef/archive/refs/heads/master.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "CyberChef-master.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "3950f7f9ffb7a2ab4d4275180c53398ba5eeadbc0f724df75e7bed70967f75fc"
+}

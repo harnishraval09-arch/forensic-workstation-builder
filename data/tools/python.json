@@ -1,0 +1,18 @@
+{
+  "id": "python",
+  "name": "Python Runtime",
+  "description": "Required for Volatility and other Python-based tools",
+  "category": "Runtime",
+  "version": "3.12.4",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "installer",
+  "download_url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "python-3.12.4-amd64.exe",
+  "requires_admin": true,
+  "source": "official",
+  "signature": "6e78342e2510df5dc917a1f3e0c86f104bad05ae9e3a148ea100751496468f5d"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "registry_explorer",
+  "name": "Registry Explorer",
+  "description": "Windows Registry analysis tool for forensic investigations",
+  "category": "Digital Forensics",
+  "version": "latest",
+  "supported_os": [
+    "windows"
+  ],
+  "install_method": "portable",
+  "download_url": "https://download.ericzimmermanstools.com/Get-ZimmermanTools.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "ZimmermanTools.zip",
+  "requires_admin": false,
+  "source": "official",
+  "signature": "862066a59bee520592dcedb2c6bb277eb27b31d6e569a54242379fe0d0fec92d"
+}
