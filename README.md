@@ -91,27 +91,45 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ### Dashboard
 
-<img width="1200" alt="Dashboard" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" />
+<img width="1919" height="1054" alt="image" src="https://github.com/user-attachments/assets/8db6f19b-c962-4980-9feb-8c14d3870b7a" />
 
 ---
 
 ### Tool Catalogue
 
-<img width="1200" alt="Tool Catalogue" src="https://github.com/user-attachments/assets/10010772-2488-4fe7-86c5-97b79342c08e" />
+<img width="1919" height="1042" alt="image" src="https://github.com/user-attachments/assets/d7d4866c-1fca-45a0-952d-a3e95f7aaac3" />
 
 ---
 
 ### Profiles
 
-<img width="1200" alt="Profiles" src="https://github.com/user-attachments/assets/e7b072b0-dd0f-4d26-a033-78dd235b9d05" />
+<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/a5eac8d7-06c2-429f-8c10-15ff877cd6db" />
+
+---
+
+### Jobs Page
+
+<img width="1919" height="1049" alt="image" src="https://github.com/user-attachments/assets/4bbbe207-f027-4c10-80b3-2f55dc578b65" />
+
+---
+
+### Snapshots
+
+<img width="1919" height="1049" alt="image" src="https://github.com/user-attachments/assets/ba65849f-ffc8-404a-b7c2-0c1fbf39424c" />
+
+---
+
+### Audit Log
+
+<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/3bc19235-6a1b-4084-bdd3-1d955e075999" />
 
 ---
 
 ### Settings
 
-<img width="1200" alt="Settings" src="https://github.com/user-attachments/assets/1386452e-bd09-4698-ba18-df57fe1222ff" />
+<img width="1919" height="1053" alt="image" src="https://github.com/user-attachments/assets/60ad6054-f51f-4c95-a828-35290050dcc0" />
 
----
+--- 
 
 ## 🛠️ Architecture
 
