@@ -91,11 +91,14 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 | Dashboard | Tool Catalogue |
 |-----------|----------------|
-| *(Add screenshot here)* | *(Add screenshot here)* |
+| <img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" /> 
+ | <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/10010772-2488-4fe7-86c5-97b79342c08e" /> |
 
-| Profiles | Audit Log |
+| Profiles | Settings |
 |----------|-----------|
-| *(Add screenshot here)* | *(Add screenshot here)* |
+| <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/e7b072b0-dd0f-4d26-a033-78dd235b9d05" />
+ | <img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/1386452e-bd09-4698-ba18-df57fe1222ff" />
+ |
 
 ---
 
@@ -254,13 +257,7 @@ If you find this project useful, please consider giving it a star on GitHub!
 ---
 
 ## 📸 Adding Screenshots Later
-<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" /> 
 
-<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/283061ac-dde0-4f7d-b9c0-0fa081147621" />
-
-<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/bc9fffe7-f7a7-473b-ba0c-4fc2567eff92" />
-
-<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/5a347e08-da47-4d94-b1ec-21f3693b737f" />
 
 
 ---
