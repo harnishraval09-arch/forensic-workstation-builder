@@ -1,4 +1,4 @@
-markdown
+
 # 🔬 Forensic Workstation Builder
 
 > A professional, secure platform for discovering, installing, and reproducing digital forensics and cybersecurity tool environments — with one click.
@@ -50,30 +50,58 @@ cd forensic-workstation-builder
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Activate on Windows
+venv\Scripts\activate
+
+# Activate on Linux/Mac
+source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the application
 python main.py
-🖥️ Usage
-GUI
-bash
+```
+
+---
+
+## 🖥️ Usage
+
+### GUI
+
+```bash
 python main.py
-CLI
-bash
+```
+
+### CLI
+
+```bash
 python cli.py list                           # List all tools
 python cli.py install wireshark              # Install a tool
 python cli.py list-profiles                  # List profiles
 python cli.py install-profile "Windows Forensics"  # Install a profile
 python cli.py create-snapshot "My Lab"       # Create a snapshot
 python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
-📸 Screenshots
-Dashboard	Tool Catalogue
-(Add screenshot here)	(Add screenshot here)
-🛠️ Architecture
-text
+```
+
+---
+
+## 📸 Screenshots
+
+| Dashboard | Tool Catalogue |
+|-----------|----------------|
+| *(Add screenshot here)* | *(Add screenshot here)* |
+
+| Profiles | Audit Log |
+|----------|-----------|
+| *(Add screenshot here)* | *(Add screenshot here)* |
+
+---
+
+## 🛠️ Architecture
+
+```
 ┌─────────────────────────────────────────────────────────┐
 │                    PRESENTATION LAYER                    │
 │                   (PySide6 GUI + CLI)                   │
@@ -100,51 +128,70 @@ text
 │              (Platform-specific)                        │
 │  - WindowsAdapter  - LinuxAdapter  - WSLAdapter        │
 └─────────────────────────────────────────────────────────┘
-🧪 Supported Tools
-Tool	Category	Type
-Autopsy	Digital Forensics	Installer
-CyberChef	General	Archive
-Wireshark	Network Forensics	Installer
-Ghidra	Malware Analysis	Archive
-YARA	Malware Analysis	Portable
-Volatility3	Malware Analysis	Python Package
-FTK Imager	Digital Forensics	Installer
-Registry Explorer	Digital Forensics	Portable
-PEStudio	Malware Analysis	Portable
-NetworkMiner	Network Forensics	Installer
-Zeek	Network Forensics	Archive
-KAPE	Digital Forensics	Archive
-EvtxECmd	Digital Forensics	Portable
-IDA Free	Malware Analysis	Installer
-Python3	Runtime	Installer
-Java	Runtime	Installer
-📊 Tech Stack
-Technology	Purpose
-Python 3.10+	Core language
-PySide6	GUI framework
-requests	HTTP downloads
-hashlib	SHA-256 verification
-git	Version control
-📝 Audit Logging
-All actions are logged to data/logs/audit.log:
+```
 
-json
-{"action": "install_started", "tool_id": "wireshark", "status": "info", "timestamp": "..."}
-{"action": "download", "tool_id": "wireshark", "status": "success", "details": {...}}
+---
+
+## 🧪 Supported Tools
+
+| Tool | Category | Type |
+|------|----------|------|
+| Autopsy | Digital Forensics | Installer |
+| CyberChef | General | Archive |
+| Wireshark | Network Forensics | Installer |
+| Ghidra | Malware Analysis | Archive |
+| YARA | Malware Analysis | Portable |
+| Volatility3 | Malware Analysis | Python Package |
+| FTK Imager | Digital Forensics | Installer |
+| Registry Explorer | Digital Forensics | Portable |
+| PEStudio | Malware Analysis | Portable |
+| NetworkMiner | Network Forensics | Installer |
+| Zeek | Network Forensics | Archive |
+| KAPE | Digital Forensics | Archive |
+| EvtxECmd | Digital Forensics | Portable |
+| IDA Free | Malware Analysis | Installer |
+| Python3 | Runtime | Installer |
+| Java | Runtime | Installer |
+
+---
+
+## 📊 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python 3.10+ | Core language |
+| PySide6 | GUI framework |
+| requests | HTTP downloads |
+| hashlib | SHA-256 verification |
+| git | Version control |
+
+---
+
+## 📝 Audit Logging
+
+All actions are logged to `data/logs/audit.log`:
+
+```json
+{"action": "install_started", "tool_id": "wireshark", "status": "info"}
+{"action": "download", "tool_id": "wireshark", "status": "success"}
 {"action": "install_completed", "tool_id": "wireshark", "status": "success"}
-🔐 Security Features
-✅ SHA-256 hash verification for downloads
+```
 
-✅ Signed manifests to prevent tampering
+---
 
-✅ Audit logging for all actions
+## 🔐 Security Features
 
-✅ Version pinning for reproducibility
+- ✅ SHA-256 hash verification for downloads
+- ✅ Signed manifests to prevent tampering
+- ✅ Audit logging for all actions
+- ✅ Version pinning for reproducibility
+- ✅ Admin permission detection
 
-✅ Admin permission detection
+---
 
-📁 Project Structure
-text
+## 📁 Project Structure
+
+```
 forensic-workstation-builder/
 ├── data/                    # Tool manifests, profiles, snapshots
 │   ├── tools/              # 18 tool manifests (.json)
@@ -161,46 +208,59 @@ forensic-workstation-builder/
 ├── sign_manifests.py       # Tool manifest signing script
 ├── compare_snapshots.py    # Snapshot comparison script
 └── requirements.txt        # Python dependencies
-👨‍💻 Author
-Harnish Raval
-BTech CSE (Cybersecurity) — Final Year Project
+```
 
-📝 License
+---
+
+## 👨‍💻 Author
+
+**Harnish Raval**  
+*BTech CSE (Cybersecurity) - National Forensic Sciences University,Gandhinagar*
+
+---
+
+## 📝 License
+
 MIT License
 
-🙏 Acknowledgments
-Original FAST project for inspiration
+---
 
-All the open-source forensic tools included in the catalogue
+## 🙏 Acknowledgments
 
-Claude AI for GUI design assistance
-
-text
+- **All open-source forensic tools** — The amazing tools included in the catalogue (Autopsy, Wireshark, Ghidra, YARA, Volatility, and more)
+- **Claude AI (Anthropic)** — For assistance with GUI design 
+- **DeepSeek AI** — For audit logging, version pinning, signed manifests, CLI support
+- **PySide6/Qt** — For the professional GUI framework
+- **Python community** — For the rich ecosystem of libraries
 
 ---
 
-## ✅ Your Final Checklist
+## ⭐ Star This Project
 
-| Task | Status |
-|------|--------|
-| Push to GitHub | ⬜ |
-| Update README.md | ⬜ |
-| Add screenshots | ⬜ |
-| Add license | ⬜ |
-| Share with seniors | ⬜ |
+If you find this project useful, please consider giving it a star on GitHub!
 
 ---
 
-## 🎯 Final Commands
+## ✅ What's Fixed
 
-```bash
-# Push your code
-git remote add origin https://github.com/harnishraval09-arch/forensic-workstation-builder.git
-git branch -M main
-git push -u origin main
+| Issue | Fix |
+|-------|-----|
+| Missing code block closes | Added proper ```bash and ```json closes |
+| Missing headers | Added proper ## headers |
+| Broken table formatting | Fixed all tables |
+| Missing spaces | Added proper spacing between sections |
+| Screenshot placeholders | Added clear placeholder boxes |
 
-# Update README with the content above
-# Then commit and push:
-git add README.md
-git commit -m "docs: Update README with professional project description"
-git push
+---
+
+## 📸 Adding Screenshots Later
+<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" /> 
+
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/283061ac-dde0-4f7d-b9c0-0fa081147621" />
+
+<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/bc9fffe7-f7a7-473b-ba0c-4fc2567eff92" />
+
+<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/5a347e08-da47-4d94-b1ec-21f3693b737f" />
+
+
+---
