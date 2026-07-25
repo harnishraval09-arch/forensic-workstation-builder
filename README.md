@@ -162,28 +162,28 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 └─────────────────────────────────────────────────────────┘
 ```
 
----
-
 ## 🧪 Supported Tools
 
 | Tool | Category | Type |
 |------|----------|------|
 | Autopsy | Digital Forensics | Installer |
 | CyberChef | General | Archive |
-| Wireshark | Network Forensics | Installer |
-| Ghidra | Malware Analysis | Archive |
-| YARA | Malware Analysis | Portable |
-| Volatility3 | Malware Analysis | Python Package |
-| FTK Imager | Digital Forensics | Installer |
-| Registry Explorer | Digital Forensics | Portable |
-| PEStudio | Malware Analysis | Portable |
-| NetworkMiner | Network Forensics | Installer |
-| Zeek | Network Forensics | Archive |
-| KAPE | Digital Forensics | Archive |
 | EvtxECmd | Digital Forensics | Portable |
+| FTK Imager | Digital Forensics | Installer |
+| Ghidra | Malware Analysis | Archive |
 | IDA Free | Malware Analysis | Installer |
-| Python3 | Runtime | Installer |
 | Java | Runtime | Installer |
+| KAPE | Digital Forensics | Archive |
+| NetworkMiner | Network Forensics | Installer |
+| PEStudio | Malware Analysis | Portable |
+| Python3 | Runtime | Installer |
+| Python (legacy) | Runtime | Installer |
+| Registry Explorer | Digital Forensics | Portable |
+| Volatility | Malware Analysis | Python Package |
+| Volatility3 | Malware Analysis | Python Package |
+| Wireshark | Network Forensics | Installer |
+| YARA | Malware Analysis | Portable |
+| Zeek | Network Forensics | Archive |
 
 ---
 
