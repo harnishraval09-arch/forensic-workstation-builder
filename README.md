@@ -89,16 +89,27 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ## 📸 Screenshots
 
-| Dashboard | Tool Catalogue |
-|-----------|----------------|
-| <img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" /> 
- | <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/10010772-2488-4fe7-86c5-97b79342c08e" /> |
+### Dashboard
 
-| Profiles | Settings |
-|----------|-----------|
-| <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/e7b072b0-dd0f-4d26-a033-78dd235b9d05" />
- | <img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/1386452e-bd09-4698-ba18-df57fe1222ff" />
- |
+<img width="1200" alt="Dashboard" src="https://github.com/user-attachments/assets/18b850e5-f318-4cbb-90ea-441b0e8922eb" />
+
+---
+
+### Tool Catalogue
+
+<img width="1200" alt="Tool Catalogue" src="https://github.com/user-attachments/assets/10010772-2488-4fe7-86c5-97b79342c08e" />
+
+---
+
+### Profiles
+
+<img width="1200" alt="Profiles" src="https://github.com/user-attachments/assets/e7b072b0-dd0f-4d26-a033-78dd235b9d05" />
+
+---
+
+### Settings
+
+<img width="1200" alt="Settings" src="https://github.com/user-attachments/assets/1386452e-bd09-4698-ba18-df57fe1222ff" />
 
 ---
 
