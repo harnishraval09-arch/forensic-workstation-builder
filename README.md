@@ -11,7 +11,7 @@ Digital forensics investigators need 10+ specialized tools to analyze systems. I
 
 **Forensic Workstation Builder** solves this by providing a beautiful GUI and CLI to:
 
-- **Browse** 18+ forensic tools
+- **Browse** 18 forensic tools
 - **Install** tools with one click
 - **Resolve dependencies** automatically
 - **Create profiles** for common workflows (Windows Forensics, Malware Analysis, Network Forensics)
