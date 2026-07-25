@@ -161,6 +161,7 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 │  - WindowsAdapter  - LinuxAdapter  - WSLAdapter        │
 └─────────────────────────────────────────────────────────┘
 ```
+---
 
 ## 🧪 Supported Tools
 
