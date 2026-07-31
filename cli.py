@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Forensic Workstation Builder - Command Line Interface
 
@@ -11,6 +10,8 @@ Usage:
     python cli.py compare <left_id> <right_id>
     python cli.py info <tool_id>
     python cli.py --help
+
+@author: Harnish Raval
 """
 
 import sys
