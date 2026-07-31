@@ -1,5 +1,8 @@
 """
 Forensic Workstation Builder - GUI entry point.
+Created on Monday Jul 20 11:16:49 2026
+
+@author: Harnish S Raval
 """
 
 import logging
