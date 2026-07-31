@@ -121,4 +121,4 @@ This project is **MIT Licensed**. By contributing, you agree to the same license
 Feel free to open an issue or reach out!
 
 **Happy coding!** 🚀
-```
+---
