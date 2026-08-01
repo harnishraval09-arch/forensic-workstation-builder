@@ -5,6 +5,7 @@ Tool Manager - Core orchestration for installing and managing tools
 import json
 import logging
 import shutil
+import re  # ← ADDED for version extraction
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -497,7 +498,7 @@ class ToolManager:
         self,
         tool: Tool
     ) -> Optional[Path]:
-        """Download a tool with audit logging"""
+        """Download a tool with audit logging and version validation"""
 
         if tool.file_name:
             file_name = tool.file_name
@@ -548,6 +549,31 @@ class ToolManager:
                 size
             )
 
+            # ============================================
+            # NEW: Version Validation (Fixes Issue #2)
+            # ============================================
+            if tool.version:
+                extracted_version = self._extract_version_from_file(dest_path)
+                if extracted_version and extracted_version != tool.version:
+                    log_audit(
+                        "version_mismatch",
+                        tool_id=tool.id,
+                        status="warning",
+                        details={
+                            "expected": tool.version,
+                            "actual": extracted_version
+                        }
+                    )
+                    logger.warning(
+                        f"Version mismatch for {tool.name}: "
+                        f"expected {tool.version}, got {extracted_version}"
+                    )
+                elif extracted_version:
+                    logger.info(
+                        f"✅ Version verified for {tool.name}: "
+                        f"{extracted_version} matches {tool.version}"
+                    )
+
             if tool.sha256:
 
                 verified = verify_sha256(
@@ -577,6 +603,31 @@ class ToolManager:
             if success
             else None
         )
+
+    # ============================================
+    # NEW: Helper method for version extraction (Fixes Issue #2)
+    # ============================================
+    def _extract_version_from_file(self, file_path: Path) -> Optional[str]:
+        """
+        Extract version from downloaded file name.
+        Looks for patterns like "4.6.7" or "v10.18.0" in the filename.
+        """
+        try:
+            # Look for version pattern in filename
+            # Matches: 4.6.7, 10.18.0, 12.1.2, etc.
+            match = re.search(r'[\d]+\.[\d]+\.?[\d]*', file_path.name)
+            if match:
+                return match.group(0)
+            
+            # Also try to find version in the file name with 'v' prefix
+            match = re.search(r'v([\d]+\.[\d]+\.?[\d]*)', file_path.name)
+            if match:
+                return match.group(1)
+            
+            return None
+        except Exception as e:
+            logger.debug(f"Could not extract version from {file_path.name}: {e}")
+            return None
 
     def _get_install_path(
         self,
