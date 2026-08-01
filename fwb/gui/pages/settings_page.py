@@ -331,10 +331,9 @@ class SettingsPage(QWidget):
         self.theme_changed.emit(theme)
 
     def _on_log_level_changed(self, level: str):
+        from ...utils.logging_config import set_log_level
+        set_log_level(level)
         self.app_state.qsettings.setValue("log_level", level)
-        logging.getLogger().setLevel(
-            getattr(logging, level, logging.INFO)
-        )
 
     def _open_log_folder(self):
         from PySide6.QtGui import QDesktopServices
