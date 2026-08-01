@@ -64,9 +64,32 @@ class Downloader:
             logger.info(f"Download complete: {destination.name} ({downloaded} bytes)")
             return True
             
-        except requests.RequestException as e:
-            logger.error(f"Download failed: {e}")
+        except requests.exceptions.HTTPError as e:
+            error_msg = f"HTTP error: {e.response.status_code} - {e.response.reason}"
+            logger.error(error_msg)
             return False
+            
+        except requests.exceptions.ConnectionError as e:
+            error_msg = f"Connection error: {str(e)}"
+            logger.error(error_msg)
+            return False
+            
+        except requests.exceptions.Timeout:
+            error_msg = f"Connection timed out after {timeout} seconds"
+            logger.error(error_msg)
+            return False
+            
+        except requests.exceptions.SSLError as e:
+            error_msg = f"SSL certificate error: {str(e)}"
+            logger.error(error_msg)
+            return False
+            
+        except requests.exceptions.RequestException as e:
+            error_msg = f"Request failed: {str(e)}"
+            logger.error(error_msg)
+            return False
+            
         except Exception as e:
-            logger.error(f"Unexpected download error: {e}")
+            error_msg = f"Unexpected error: {str(e)}"
+            logger.error(error_msg)
             return False
