@@ -12,7 +12,7 @@
   "sha256": "",
   "dependencies": [],
   "file_name": "FTK_Imager.exe",
-  "requires_admin": true,
+  "requires_admin": false,
   "source": "official",
   "signature": "d5d7f6a44d18641bad5e50d8ee5342e8fa3b50647ca5c0d3a44f70cf19c61e73"
 }

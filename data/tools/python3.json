@@ -12,7 +12,7 @@
   "sha256": "",
   "dependencies": [],
   "file_name": "python-manager-26.3.msix",
-  "requires_admin": true,
+  "requires_admin": false,
   "source": "official",
   "signature": "a24e4c98934f101cbfcb083ab313c51dcd5c9e089fe637e54dc282397152e8bc"
 }
