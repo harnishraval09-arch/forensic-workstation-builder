@@ -16,7 +16,6 @@ Digital forensics investigators need 10+ specialized tools to analyze systems. I
 - **Resolve dependencies** automatically
 - **Create profiles** for common workflows (Windows Forensics, Malware Analysis, Network Forensics)
 - **Snapshot & reproduce** environments
-- **Audit** every action
 
 ---
 
@@ -28,7 +27,6 @@ Digital forensics investigators need 10+ specialized tools to analyze systems. I
 | 📦 **18+ Tools** | Autopsy, Wireshark, Ghidra, YARA, Volatility, and more |
 | 📋 **4 Profiles** | Windows Forensics, Malware Analysis, Network Forensics, Custom |
 | 🔒 **Secure Install** | SHA-256 verification, signed manifests |
-| 📊 **Audit Logging** | Complete audit trail of all actions |
 | 📸 **Snapshots** | Save and reproduce exact environments |
 | 🔄 **Version Pinning** | Track exact tool versions |
 | 🌓 **Dark/Light Theme** | Built-in theme toggle |
@@ -91,43 +89,43 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ### Dashboard
 
-<img width="1919" height="1054" alt="image" src="https://github.com/user-attachments/assets/8db6f19b-c962-4980-9feb-8c14d3870b7a" />
+<img width="1919" height="1038" alt="Screenshot 2026-09-08 225936" src="https://github.com/user-attachments/assets/73b0f3e0-d22d-4a9a-8fda-a0d6f755c991" />
 
 ---
 
 ### Tool Catalogue
 
-<img width="1919" height="1042" alt="image" src="https://github.com/user-attachments/assets/d7d4866c-1fca-45a0-952d-a3e95f7aaac3" />
+<img width="1919" height="1049" alt="Screenshot 2026-09-08 225952" src="https://github.com/user-attachments/assets/827b3314-c48a-4e29-99b6-878deaf05924" />
 
 ---
 
 ### Profiles
 
-<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/a5eac8d7-06c2-429f-8c10-15ff877cd6db" />
+<img width="1917" height="1045" alt="Screenshot 2026-09-08 225959" src="https://github.com/user-attachments/assets/deee4203-0808-4b24-a491-1c77d3b0cf46" />
 
 ---
 
 ### Jobs Page
 
-<img width="1919" height="1049" alt="image" src="https://github.com/user-attachments/assets/4bbbe207-f027-4c10-80b3-2f55dc578b65" />
+<img width="1918" height="1045" alt="Screenshot 2026-09-08 225925" src="https://github.com/user-attachments/assets/5596198d-6a6f-4d1b-bf10-9bf91e091371" />
+
+---
+### Create Profile
+
+<img width="505" height="473" alt="Screenshot 2026-09-08 230037" src="https://github.com/user-attachments/assets/91d3d82c-a3d4-4d0f-b758-714a10adf638" />
 
 ---
 
 ### Snapshots
 
-<img width="1919" height="1049" alt="image" src="https://github.com/user-attachments/assets/ba65849f-ffc8-404a-b7c2-0c1fbf39424c" />
+<img width="1919" height="1047" alt="Screenshot 2026-09-08 230102" src="https://github.com/user-attachments/assets/c89c441d-3fb9-47ae-ab8a-405089fac3d0" />
 
 ---
 
-### Audit Log
-
-<img width="1919" height="1051" alt="image" src="https://github.com/user-attachments/assets/3bc19235-6a1b-4084-bdd3-1d955e075999" />
-
----
 
 ### Settings
 
-<img width="1919" height="1053" alt="image" src="https://github.com/user-attachments/assets/60ad6054-f51f-4c95-a828-35290050dcc0" />
+<img width="1917" height="1007" alt="Screenshot 2026-09-08 230108" src="https://github.com/user-attachments/assets/da8f8580-01af-4948-a64b-bdfe6c855254" />
 
 --- 
 
@@ -198,17 +196,6 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 | hashlib | SHA-256 verification |
 | git | Version control |
 
----
-
-## 📝 Audit Logging
-
-All actions are logged to `data/logs/audit.log`:
-
-```json
-{"action": "install_started", "tool_id": "wireshark", "status": "info"}
-{"action": "download", "tool_id": "wireshark", "status": "success"}
-{"action": "install_completed", "tool_id": "wireshark", "status": "success"}
-```
 
 ---
 
@@ -216,7 +203,6 @@ All actions are logged to `data/logs/audit.log`:
 
 -  SHA-256 hash verification for downloads
 -  Signed manifests to prevent tampering
--  Audit logging for all actions
 -  Version pinning for reproducibility
 -  Admin permission detection
 
