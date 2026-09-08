@@ -1,7 +1,7 @@
 
 # 🔬 Forensic Workstation Builder
 
-> A professional, secure platform for discovering, installing, and reproducing digital forensics and cybersecurity tool environments — with one click.
+> A secure platform for discovering, installing, and reproducing digital forensics and cybersecurity tool environments — with one click.
 
 ---
 
@@ -214,11 +214,11 @@ All actions are logged to `data/logs/audit.log`:
 
 ## 🔐 Security Features
 
-- ✅ SHA-256 hash verification for downloads
-- ✅ Signed manifests to prevent tampering
-- ✅ Audit logging for all actions
-- ✅ Version pinning for reproducibility
-- ✅ Admin permission detection
+-  SHA-256 hash verification for downloads
+-  Signed manifests to prevent tampering
+-  Audit logging for all actions
+-  Version pinning for reproducibility
+-  Admin permission detection
 
 ---
 
@@ -245,20 +245,20 @@ forensic-workstation-builder/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Harnish Raval**  
 *BTech CSE (Cybersecurity) - National Forensic Sciences University,Gandhinagar*
 
 ---
 
-## 📝 License
+##  License
 
 MIT License
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **All open-source forensic tools** — The amazing tools included in the catalogue (Autopsy, Wireshark, Ghidra, YARA, Volatility, and more)
 - **Claude AI (Anthropic)** — For assistance with GUI design 
@@ -271,18 +271,6 @@ MIT License
 ## ⭐ Star This Project
 
 If you find this project useful, please consider giving it a star on GitHub!
-
----
-
-## ✅ What's Fixed
-
-| Issue | Fix |
-|-------|-----|
-| Missing code block closes | Added proper ```bash and ```json closes |
-| Missing headers | Added proper ## headers |
-| Broken table formatting | Fixed all tables |
-| Missing spaces | Added proper spacing between sections |
-| Screenshot placeholders | Added clear placeholder boxes |
 
 ---
 
