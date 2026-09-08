@@ -89,7 +89,7 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ### Dashboard
 
-<img width="1919" height="1038" alt="Screenshot 2026-09-08 225936" src="https://github.com/user-attachments/assets/73b0f3e0-d22d-4a9a-8fda-a0d6f755c991" />
+<img width="1280" height="691" alt="WhatsApp Image 2026-09-08 at 23 20 40" src="https://github.com/user-attachments/assets/6d7056d4-6e27-4188-8c1a-75679e842602" />
 
 ---
 
