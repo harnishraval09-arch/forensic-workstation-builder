@@ -105,14 +105,15 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ---
 
-### Jobs Page
-
-![Jobs](Screenshots/Jobs.png)
-
----
 ### Create Profile Create_Profile.png
 
 ![Create_Profile](Screenshots/Create_Profile.png)
+
+---
+
+### Jobs Page
+
+![Jobs](Screenshots/Jobs.png)
 
 ---
 
