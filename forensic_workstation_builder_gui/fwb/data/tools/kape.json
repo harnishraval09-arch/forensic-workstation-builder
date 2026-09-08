@@ -1,0 +1,16 @@
+{
+  "id": "kape",
+  "name": "KAPE",
+  "description": "Kroll Artifact Parser and Extractor for rapid triage collection and processing",
+  "category": "Digital Forensics",
+  "version": "1.4.0.0",
+  "supported_os": ["windows"],
+  "install_method": "portable",
+  "download_url": "https://f001.backblazeb2.com/file/kape/kape.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "kape.zip",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://www.kroll.com/kape"
+}

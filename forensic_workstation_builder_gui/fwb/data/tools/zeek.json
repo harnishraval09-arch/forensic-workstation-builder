@@ -1,0 +1,16 @@
+{
+  "id": "zeek",
+  "name": "Zeek",
+  "description": "Passive network traffic analyzer and security monitoring framework",
+  "category": "Network Forensics",
+  "version": "6.2.0",
+  "supported_os": ["linux"],
+  "install_method": "package",
+  "download_url": "https://download.opensuse.org/repositories/security:zeek/",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "zeek",
+  "requires_admin": true,
+  "source": "official",
+  "documentation_url": "https://docs.zeek.org/"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ftk_imager",
+  "name": "FTK Imager",
+  "description": "Forensic disk imaging tool for creating verified bit-for-bit evidence images",
+  "category": "Digital Forensics",
+  "version": "4.7.1",
+  "supported_os": ["windows"],
+  "install_method": "installer",
+  "download_url": "https://ad-exdownloads.accessdata.com/pub/2023/ftk_imager_4.7.1_installer.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "ftk_imager-setup.exe",
+  "requires_admin": true,
+  "source": "official",
+  "documentation_url": "https://www.exterro.com/ftk-imager"
+}

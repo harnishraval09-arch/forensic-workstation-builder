@@ -14,12 +14,12 @@ from .pages.snapshots_page import SnapshotsPage
 from .pages.settings_page import SettingsPage
 
 NAV_ITEMS = [
-    ("dashboard", "🏠", "Dashboard"),
-    ("catalogue", "🧰", "Tool Catalogue"),
-    ("profiles", "📦", "Profiles"),
-    ("jobs", "⚙", "Jobs"),
-    ("snapshots", "🗂", "Snapshots"),
-    ("settings", "⚙️", "Settings"),
+    ("dashboard", "◉", "Dashboard"),
+    ("catalogue", "▣", "Tool Catalogue"),
+    ("profiles", "⬡ ", "Profiles"),
+    ("jobs", "▤", "Jobs"),
+    ("snapshots", "▣", "Snapshots"),
+    ("settings", "⚙", "Settings"),
 ]
 
 PAGE_TITLES = {

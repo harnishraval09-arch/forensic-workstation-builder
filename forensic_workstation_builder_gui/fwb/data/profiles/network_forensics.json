@@ -1,0 +1,8 @@
+{
+  "id": "network_forensics",
+  "name": "Network Forensics",
+  "description": "Packet capture, analysis and network incident response toolkit",
+  "category": "Network Forensics",
+  "version": "1.0.0",
+  "tools": ["wireshark", "networkminer", "zeek", "cyberchef"]
+}

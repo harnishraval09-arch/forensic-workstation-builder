@@ -1,0 +1,16 @@
+{
+  "id": "volatility3",
+  "name": "Volatility 3",
+  "description": "Advanced memory forensics framework for extracting digital artifacts from RAM images",
+  "category": "Malware Analysis",
+  "version": "2.11.0",
+  "supported_os": ["windows", "linux", "macos"],
+  "install_method": "pip",
+  "download_url": "https://pypi.org/project/volatility3/",
+  "sha256": "",
+  "dependencies": ["python3"],
+  "file_name": "volatility3",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://volatility3.readthedocs.io/"
+}

@@ -36,10 +36,10 @@ class DashboardPage(QWidget):
         # Stat cards
         stats_row = QHBoxLayout()
         stats_row.setSpacing(16)
-        self.stat_available = StatCard("Available Tools", 0, "◇", "#2f6fed")
-        self.stat_installed = StatCard("Installed Tools", 0, "✓", "#27ae60")
-        self.stat_updates = StatCard("Updates Available", 0, "↻", "#e67e22")
-        self.stat_profiles = StatCard("Profiles", 0, "⬡", "#2ec4b6")
+        self.stat_available = StatCard("Available Tools", 0, "🧰", "#2f6fed")
+        self.stat_installed = StatCard("Installed Tools", 0, "✅", "#27ae60")
+        self.stat_updates = StatCard("Updates Available", 0, "⬆", "#e67e22")
+        self.stat_profiles = StatCard("Profiles", 0, "📦", "#2ec4b6")
         for card in (self.stat_available, self.stat_installed, self.stat_updates, self.stat_profiles):
             stats_row.addWidget(card)
         root.addLayout(stats_row)
@@ -150,8 +150,6 @@ class DashboardPage(QWidget):
             label = QLabel(label_text)
             label.setObjectName("Muted")
             value = QLabel(value_text)
-            if label_text != "Loaded manifests":
-                value.setObjectName("MonoText")
             value.setWordWrap(True)
             value.setAlignment(Qt.AlignRight)
             row.addWidget(label)

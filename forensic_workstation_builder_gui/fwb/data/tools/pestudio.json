@@ -1,0 +1,16 @@
+{
+  "id": "pestudio",
+  "name": "PEStudio",
+  "description": "Static malware triage tool for inspecting suspicious Windows executables",
+  "category": "Malware Analysis",
+  "version": "9.60",
+  "supported_os": ["windows"],
+  "install_method": "portable",
+  "download_url": "https://www.winitor.com/tools/pestudio/9.60/pestudio.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "pestudio.zip",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://www.winitor.com/"
+}

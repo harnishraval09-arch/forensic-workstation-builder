@@ -1,0 +1,16 @@
+{
+  "id": "ghidra",
+  "name": "Ghidra",
+  "description": "NSA-developed software reverse engineering suite with disassembler and decompiler",
+  "category": "Malware Analysis",
+  "version": "11.3",
+  "supported_os": ["windows", "linux", "macos"],
+  "install_method": "archive",
+  "download_url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.3_build/ghidra_11.3_PUBLIC.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "ghidra.zip",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://ghidra-sre.org/"
+}

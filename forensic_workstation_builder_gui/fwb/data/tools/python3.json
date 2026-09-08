@@ -1,0 +1,16 @@
+{
+  "id": "python3",
+  "name": "Python 3",
+  "description": "Python 3 interpreter and runtime, required by several analysis tools",
+  "category": "General",
+  "version": "3.12.4",
+  "supported_os": ["windows", "linux", "macos"],
+  "install_method": "installer",
+  "download_url": "https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "python-installer.exe",
+  "requires_admin": true,
+  "source": "official",
+  "documentation_url": "https://docs.python.org/3/"
+}

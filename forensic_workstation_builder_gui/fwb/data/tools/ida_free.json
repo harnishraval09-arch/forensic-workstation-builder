@@ -1,0 +1,16 @@
+{
+  "id": "ida_free",
+  "name": "IDA Free",
+  "description": "Free version of the industry-standard interactive disassembler for reverse engineering",
+  "category": "Malware Analysis",
+  "version": "9.0",
+  "supported_os": ["windows", "linux", "macos"],
+  "install_method": "installer",
+  "download_url": "https://out7.hex-rays.com/files/idafree90_windows.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "ida_free-setup.exe",
+  "requires_admin": true,
+  "source": "official",
+  "documentation_url": "https://hex-rays.com/ida-free/"
+}

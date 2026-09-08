@@ -1,0 +1,16 @@
+{
+  "id": "registry_explorer",
+  "name": "Registry Explorer",
+  "description": "Advanced Windows registry hive viewer and analysis tool by Eric Zimmerman",
+  "category": "Digital Forensics",
+  "version": "2.0.0.10",
+  "supported_os": ["windows"],
+  "install_method": "portable",
+  "download_url": "https://ericzimmerman.github.io/RegistryExplorer.zip",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "RegistryExplorer.zip",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://ericzimmerman.github.io/"
+}

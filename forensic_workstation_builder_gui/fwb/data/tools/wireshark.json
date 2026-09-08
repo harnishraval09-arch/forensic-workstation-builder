@@ -1,0 +1,16 @@
+{
+  "id": "wireshark",
+  "name": "Wireshark",
+  "description": "The world's foremost network protocol analyzer for live capture and offline analysis",
+  "category": "Network Forensics",
+  "version": "4.4.6",
+  "supported_os": ["windows", "linux", "macos"],
+  "install_method": "installer",
+  "download_url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.4.6-x64.exe",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "Wireshark-setup.exe",
+  "requires_admin": true,
+  "source": "official",
+  "documentation_url": "https://www.wireshark.org/docs/"
+}

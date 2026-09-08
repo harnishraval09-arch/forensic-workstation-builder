@@ -1,0 +1,16 @@
+{
+  "id": "networkminer",
+  "name": "NetworkMiner",
+  "description": "Network forensic analysis tool for extracting artifacts from packet captures",
+  "category": "Network Forensics",
+  "version": "3.0",
+  "supported_os": ["windows", "linux"],
+  "install_method": "archive",
+  "download_url": "https://www.netresec.com/?download=NetworkMiner",
+  "sha256": "",
+  "dependencies": [],
+  "file_name": "NetworkMiner.zip",
+  "requires_admin": false,
+  "source": "official",
+  "documentation_url": "https://www.netresec.com/?page=NetworkMiner"
+}
