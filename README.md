@@ -89,43 +89,43 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ### Dashboard
 
-<img width="1280" height="691" alt="WhatsApp Image 2026-09-08 at 23 20 40" src="https://github.com/user-attachments/assets/6d7056d4-6e27-4188-8c1a-75679e842602" />
+![Dashboard](Screenshots/Dashboard.jpeg)
 
 ---
 
 ### Tool Catalogue
 
-<img width="1919" height="1049" alt="Screenshot 2026-09-08 225952" src="https://github.com/user-attachments/assets/827b3314-c48a-4e29-99b6-878deaf05924" />
+![Tools](Screenshots/Tools.png)
 
 ---
 
 ### Profiles
 
-<img width="1917" height="1045" alt="Screenshot 2026-09-08 225959" src="https://github.com/user-attachments/assets/deee4203-0808-4b24-a491-1c77d3b0cf46" />
+![Profile](Screenshots/Profile.png)
 
 ---
 
 ### Jobs Page
 
-<img width="1918" height="1045" alt="Screenshot 2026-09-08 225925" src="https://github.com/user-attachments/assets/5596198d-6a6f-4d1b-bf10-9bf91e091371" />
+![Jobs](Screenshots/Jobs.png)
 
 ---
-### Create Profile
+### Create Profile Create_Profile.png
 
-<img width="505" height="473" alt="Screenshot 2026-09-08 230037" src="https://github.com/user-attachments/assets/91d3d82c-a3d4-4d0f-b758-714a10adf638" />
+![Create_Profile](Screenshots/Create_Profile.png)
 
 ---
 
 ### Snapshots
 
-<img width="1919" height="1047" alt="Screenshot 2026-09-08 230102" src="https://github.com/user-attachments/assets/c89c441d-3fb9-47ae-ab8a-405089fac3d0" />
+![Snapshot](Screenshots/Snapshot.png)
 
 ---
 
 
 ### Settings
 
-<img width="1917" height="1007" alt="Screenshot 2026-09-08 230108" src="https://github.com/user-attachments/assets/da8f8580-01af-4948-a64b-bdfe6c855254" />
+![Settings](Screenshots/Settings.png)
 
 --- 
 
