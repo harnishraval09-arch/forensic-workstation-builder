@@ -33,3 +33,4 @@ logs/
 *.sqlite 
 .env 
 .local 
+data/installed/
