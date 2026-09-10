@@ -89,7 +89,7 @@ python cli.py compare snapshot_1 snapshot_2  # Compare snapshots
 
 ### Dashboard
 
-![Dashboard](Screenshots/Dashboard.jpeg)
+![Dashboard](Screenshots/Dashboard.png)
 
 ---
 
