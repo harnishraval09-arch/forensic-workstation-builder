@@ -8,7 +8,7 @@
     "windows"
   ],
   "install_method": "installer",
-  "download_url": "https://www.python.org/ftp/python/pymanager/python-manager-26.3.msix",
+  "download_url": "https://www.python.org/ftp/python/pymanager/python-manager-26.4.msix",
   "sha256": "",
   "dependencies": [],
   "file_name": "python-manager-26.3.msix",
