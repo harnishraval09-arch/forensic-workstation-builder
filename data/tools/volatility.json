@@ -9,7 +9,7 @@
     "linux"
   ],
   "install_method": "python_package",
-  "download_url": "",
+  "download_url": "https://github.com/volatilityfoundation/volatility3/archive/refs/heads/develop.zip",
   "sha256": "",
   "dependencies": [
     "python"
