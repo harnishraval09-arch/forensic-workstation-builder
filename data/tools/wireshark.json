@@ -8,7 +8,7 @@
     "windows"
   ],
   "install_method": "installer",
-  "download_url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.7-x64.exe",
+"download_url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.10-x64.exe",
   "sha256": "",
   "dependencies": [],
   "file_name": "Wireshark-4.6.7-x64.exe",
