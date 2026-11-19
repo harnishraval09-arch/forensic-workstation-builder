@@ -8,7 +8,7 @@
     "linux"
   ],
   "install_method": "archive",
-  "download_url": "https://download.oracle.com/java/26/latest/jdk-26_linux-x64_bin.tar.gz",
+  "download_url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=254205_0d75e87f2be44001b911a40e63560df4",
   "sha256": "",
   "dependencies": [],
   "file_name": "jdk-26_linux-x64_bin.tar.gz",
